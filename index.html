@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submission</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!--header-->
+    <header>
+      <div><a class="logo" href="#">Logo.</a></div>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+    <!--heder end-->
+
+    <!--main-->
+    <main>
+      <!-- section home -->
+      <section id="home">
+          <div class="hero">
+            <figure>
+              <img src="image/profil1.jpg" alt="" />
+              <figcaption>Hello coder's!</figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <div class="text-1"><b>Hi</b> everyone, <b>I'am</b></div>
+            <ul class="dynamic-text">
+              <li class="type-text"><span id="wrap-text"></span></li>
+            </ul>
+            <div class="text-2">
+              <p>
+                I am a junior web development,<br />
+                just starting to learn in the world of coding.
+              </p>
+            </div>
+          </div>
+      </section>
+
+      <!-- section about -->
+      <section id="about">
+        <aside class="about-content">
+          <div class="about-img">
+            <img src="image/Profil.png" alt="" />
+          </div>
+          <div class="about-isi">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, <span>I'am Nabil Muflih Hanan</span></h3>
+            <p>
+              Introduce me, a web developer who is just starting to learn in the
+              world of coding. My current profession is as a student at Bahaudin
+              Mudhary University Madura, where I study coding and create modern
+              and elegant websites.
+            </p>
+          </div>
+        </aside>
+      </section>
+    </main>
+    <!--main end-->
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home">&#8593;</a>
+      </div>
+    </footer>
+    <!--footer end-->
+
+    <!-- script -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      //Setup and start animation!
+      var typed = new Typed("#wrap-text", {
+        strings: ["Web Development"],
+        typeSpeed: 100,
+        loop: true,
+        backSpeed: 100,
+        backDelay: 900,
+      });
+    </script>
+  </body>
+</html>
